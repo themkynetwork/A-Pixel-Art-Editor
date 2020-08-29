@@ -1,0 +1,25 @@
+body {
+    height: 97vh;
+    width: 97vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #editor {
+    padding: 2vmax;
+    background: #222;
+    color: white;
+    box-shadow: 0 13px 8px 3px rgba(40,40,40,0.3);
+  }
+  
+  #editor canvas {
+    margin-bottom: 1vmax;
+  }
+  
+  #editor button {
+    background: white;
+    color: #222;
+    border: 0;
+    padding: .3em 1em;
+  }
